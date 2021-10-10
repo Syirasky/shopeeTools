@@ -21,8 +21,8 @@ python mainProgram.py
 
 Contributors names and contact info
 
-Syirasky 
-[@DomPizzie](https://www.facebook.com/ras.rizal.1/)
+Rasrizal 
+[@Rasrizal](https://www.facebook.com/ras.rizal.1/)
 
 
 ## Acknowledgments
