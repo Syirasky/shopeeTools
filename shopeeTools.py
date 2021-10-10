@@ -174,6 +174,7 @@ def main():
       runProcess(browseroption)
     elif option == 0:
         print('Thanks for using my simple program :D')
+        os.system("pause")
         exit()
     else:
         print('Invalid option. Please enter a number between 1 and 6.')
