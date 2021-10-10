@@ -10,7 +10,7 @@ For now the browser supported is Chrome, Edge, Firefox, Brave, Opera, Chromium
 
 
 ### Executing program
-* How to run the program
+* How to run the program<br>
 First option for a user who is not familiar with execute python script can just download the exe file from release <br>
 Second option you can just execute the python script 
 ```
