@@ -12,6 +12,7 @@ For now the browser supported is Chrome, Edge, Firefox, Brave, Opera, Chromium
 ### Executing program
 * How to run the program<br>
 First option for a user who is not familiar with execute python script can just download the exe file from release <br>
+<a href="https://github.com/Syirasky/shopeeTools/releases/tag/1.0">Click here to download (windows user)</a><br>
 Second option you can just execute the python script 
 ```
 python mainProgram.py
