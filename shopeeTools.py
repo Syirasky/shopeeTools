@@ -109,6 +109,10 @@ def print_menu():
     6: 'Chromium',
     0: 'Exit'
     }
+    
+  print("---------------ShopeeTools---------------")
+  print("Before you continue, make sure that you logged in to shopee.com.my")
+  print()
   for key in menu_options.keys():
         print (key, '--', menu_options[key] )
   return
@@ -138,7 +142,7 @@ def runProcess(optionSelected):
     # print("Total Calculated for now : " + str(processedData[0]) + " , iteration : " + str(loop))
     loop = loop + 1
     # im scared shopee detect we requesting to much so i should limit to at least 1 sec
-    if loop > 3:
+    if loop > 20:
       time.sleep(1)
 
   if totalCalculated > 0:
@@ -161,7 +165,6 @@ def runProcess(optionSelected):
   return
 
 def main():
-  print("Before you continue, make sure that you logged in to shopee.com.my")
   optionArray = [1,2,3,4,5,6]
   while(True):
     print_menu()
@@ -174,8 +177,7 @@ def main():
         exit()
     else:
         print('Invalid option. Please enter a number between 1 and 6.')
-
-
+    os.system('cls' if os.name == 'nt' else 'clear')
 if __name__ == "__main__":
     main()
 
